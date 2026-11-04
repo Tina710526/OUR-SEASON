@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5B9BD5">
+  <meta name="description" content="OUR SEASON — A season that never ends. 一個屬於 ZEROBASEONE 與 ZEROSE 的平行宇宙。">
+  <title>OUR SEASON — A season that never ends.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="OUR SEASON 首頁"><span class="brand-mark">✦</span><span>OUR <b>SEASON</b><small>A season that never ends.</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="開啟選單">☰</button>
+    <nav id="mainNav">
+      <a href="#universe">宇宙地圖</a><a href="#worlds">三個世界</a><a href="#members">九位星旅者</a>
+      <a href="#timeline">時光檔案</a><a href="#daily">平行日常</a><a href="#my-season">我的季節</a>
+    </nav>
+    <button class="nav-star" id="navStar" title="查看星星">✧ <span id="navStarCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-sky">
+        <span class="sun"></span><span class="cloud cloud-a"></span><span class="cloud cloud-b"></span>
+        <span class="sparkle s1">✦</span><span class="sparkle s2">✧</span><span class="sparkle s3">✦</span>
+        <div class="hero-copy">
+          <p class="eyebrow">A LITTLE UNIVERSE FOR NINE & YOU</p>
+          <h1>OUR<br><em>SEASON</em></h1>
+          <p class="hero-line">如果還有下一個夏天，<br>希望我們九個人都在。</p>
+          <p class="hero-sub">九個人一直都在，而我們還有下一個季節。</p>
+          <div class="hero-actions"><a class="button button-primary" href="#universe">進入宇宙 <span>↗</span></a><a class="text-link" href="#worlds">探索三個世界　↓</a></div>
+        </div>
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="hero-planet"><span>✦</span></div>
+        <div class="hero-label">ZEROBASEONE × ZEROSE <i>✧</i> FOREVER IN OUR SEASON</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="wave-line"></span><span>01 / 09</span></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div><p class="eyebrow blue">WELCOME, ZEROSE</p><h2>這裡的季節，<br><em>永遠不會結束。</em></h2></div>
+      <p class="intro-text">有些回憶屬於真實的夏天，有些故事住在平行時空，還有一些星星，正等著你親手找到。<br><br>把想念收進口袋，沿著星光，慢慢探索我們的宇宙。</p>
+      <div class="intro-stamp">EST.<br><b>OUR<br>SEASON</b><br>✦ 09 ✦</div>
+    </section>
+
+    <section class="universe-section section-wrap" id="universe">
+      <div class="section-heading"><div><p class="eyebrow blue">YOUR JOURNEY STARTS HERE</p><h2>UNIVERSE <em>MAP</em></h2></div><p>點擊星球，選擇想抵達的時空。<br>每一次探索，都會留下星光。</p></div>
+      <div class="universe-panel">
+        <div class="map-stars" aria-hidden="true"></div>
+        <div class="map-sun">✦<small>OUR<br>STAR</small></div>
+        <button class="map-world world-summer" data-world="summer"><span class="world-icon">☼</span><b>OUR SUMMER</b><small>真實的回憶</small></button>
+        <button class="map-world world-forever" data-world="forever"><span class="world-icon">♡</span><b>FOREVER NINE</b><small>幸福平行時空</small></button>
+        <button class="map-world world-stars" data-world="stars"><span class="world-icon">✧</span><b>BEYOND THE STARS</b><small>星際冒險宇宙</small></button>
+        <div class="map-orbit map-orbit-a"></div><div class="map-orbit map-orbit-b"></div>
+        <div class="map-hint">✦ SELECT A WORLD TO BEGIN ✦</div>
+      </div>
+      <div class="world-detail" id="worldDetail" aria-live="polite"><span class="detail-symbol">✧</span><div><b>宇宙正在等待你</b><p>選擇上方任一世界，開啟你的旅程。</p></div><span class="detail-count">3 WORLDS</span></div>
+    </section>
+
+    <section class="worlds-section section-wrap" id="worlds">
+      <div class="section-heading"><div><p class="eyebrow blue">THREE WORLDS, ONE SEASON</p><h2>OUR <em>WORLDS</em></h2></div><p>不同的時空，相同的星光。<br>每個世界都收藏著一種想念。</p></div>
+      <div class="world-cards">
+        <article class="world-card summer-card"><div class="card-topline">WORLD 01 <span>☼</span></div><div class="card-art summer-art"><div class="art-sun"></div><div class="art-sea"></div><span class="art-star">✦</span></div><div class="card-copy"><p>REAL MEMORIES</p><h3>OUR SUMMER</h3><span>把一起走過的日子，收藏成永遠。</span><button class="arrow-button" data-world="summer">探索這個世界 ↗</button></div></article>
+        <article class="world-card forever-card"><div class="card-topline">WORLD 02 <span>♡</span></div><div class="card-art forever-art"><div class="art-moon"></div><div class="art-cloud"></div><span class="art-star">✧</span></div><div class="card-copy"><p>FICTIONAL PARALLEL WORLD</p><h3>FOREVER NINE</h3><span>在這裡，九個人的故事還在繼續。</span><button class="arrow-button" data-world="forever">閱讀平行日常 ↗</button><small class="fiction-note">※ 粉絲創作虛構世界，非真實事件或成員發言。</small></div></article>
+        <article class="world-card stars-card"><div class="card-topline">WORLD 03 <span>✧</span></div><div class="card-art stars-art"><div class="art-planet"></div><span class="art-star star-a">✦</span><span class="art-star star-b">✧</span></div><div class="card-copy"><p>INTERSTELLAR ADVENTURE</p><h3>BEYOND THE STARS</h3><span>前往九顆星球，完成任務，收集星光。</span><button class="arrow-button" data-world="stars">開始星際冒險 ↗</button></div></article>
+      </div>
+    </section>
+
+    <section class="members-section section-wrap" id="members">
+      <div class="section-heading"><div><p class="eyebrow blue">NINE STARS, NINE STORIES</p><h2>THE <em>NINE</em></h2></div><p>九位星旅者，各自閃耀。<br>選擇一顆星球，看看它為你準備了什麼。</p></div>
+      <div class="member-grid" id="memberGrid"></div>
+    </section>
+
+    <section class="timeline-section section-wrap" id="timeline">
+      <div class="section-heading"><div><p class="eyebrow blue">MEMORIES IN BLOOM</p><h2>OUR <em>TIMELINE</em></h2></div><p>把真實發生過的時刻，<br>好好收藏在這裡。</p></div>
+      <div class="timeline-box"><div class="timeline-line"></div><div id="timelineList"></div><p class="source-note">此區為可自行擴充的資料範例；新增真實事件前請核對日期與來源。</p></div>
+    </section>
+
+    <section class="daily-section section-wrap" id="daily">
+      <div class="section-heading"><div><p class="eyebrow blue">A SOFTER KIND OF REALITY</p><h2>DAILY <em>POSTCARDS</em></h2></div><p>如果九個人一直住在同一個夏天，<br>今天會發生什麼小事？</p></div>
+      <div class="fiction-banner">♡ FOREVER NINE — 粉絲創作虛構故事<br><small>以下內容為平行時空想像，並非成員真實生活、發言或事件。</small></div>
+      <div class="daily-grid" id="dailyGrid"></div>
+    </section>
+
+    <section class="adventure-section section-wrap" id="adventure">
+      <div class="adventure-panel"><div class="adventure-copy"><p class="eyebrow">BEYOND THE STARS</p><h2>你的下一顆星，<br><em>就在前方。</em></h2><p>完成每日小任務，收集星星，慢慢點亮屬於你的宇宙。</p><button class="button button-light" id="claimStar">領取今日星光　✦</button><small id="claimMessage">每天可以領取一次星光。</small></div><div class="adventure-visual"><div class="big-planet"></div><span class="floating-star fs1">✦</span><span class="floating-star fs2">✧</span><span class="floating-star fs3">✦</span><div class="orbit-ring"></div></div></div>
+      <div class="quest-row"><div><p class="eyebrow blue">YOUR LITTLE QUEST</p><h3>今日探索清單</h3></div><div id="questList" class="quest-list"></div></div>
+    </section>
+
+    <section class="archive-section section-wrap" id="archive">
+      <div class="section-heading"><div><p class="eyebrow blue">KEEP THE MOMENTS</p><h2>MEMORY <em>ARCHIVE</em></h2></div><p>演唱會、專輯、活動，<br>還有你想留下的私人回憶。</p></div>
+      <div class="archive-layout"><div class="archive-feature"><span>✧ PERSONAL COLLECTION</span><h3>每一段回憶，<br>都值得被保存。</h3><p>把你的重要時刻寫進專屬收藏。</p><a href="#my-season">前往我的季節 ↓</a></div><div class="archive-list" id="archiveList"></div></div>
+    </section>
+
+    <section class="my-season-section section-wrap" id="my-season">
+      <div class="section-heading"><div><p class="eyebrow blue">A PLACE JUST FOR YOU</p><h2>MY <em>SEASON</em></h2></div><p>你的星星、日記與成就。<br>這個小小宇宙，由你親手填滿。</p></div>
+      <div class="dashboard">
+        <div class="stat-card star-stat"><span>COLLECTED STARS</span><strong id="starTotal">0</strong><small>✦ 每顆星星都是一段旅程</small></div>
+        <div class="stat-card"><span>WORLDS VISITED</span><strong id="worldTotal">0/3</strong><small>探索你想去的時空</small></div>
+        <div class="stat-card"><span>MEMORIES SAVED</span><strong id="memoryTotal">0</strong><small>收藏你的季節片段</small></div>
+      </div>
+      <div class="personal-grid">
+        <div class="personal-card"><div class="personal-title"><div><p class="eyebrow blue">YOUR JOURNAL</p><h3>季節日記</h3></div><span>✎</span></div><form id="journalForm"><label for="journalText">今天想留下什麼？</label><textarea id="journalText" placeholder="寫下一段只屬於你的回憶……" maxlength="500" required></textarea><button class="button button-primary" type="submit">保存日記</button></form><div id="journalList" class="journal-list"></div></div>
+        <div class="personal-card"><div class="personal-title"><div><p class="eyebrow blue">MESSAGE IN A BOTTLE</p><h3>星海漂流瓶</h3></div><span>♧</span></div><p class="bottle-desc">把一句話放進漂流瓶，讓它漂向這片星海。</p><form id="bottleForm"><textarea id="bottleText" placeholder="想對未來的自己或 ZEROSE 說……" maxlength="240" required></textarea><button class="button button-secondary" type="submit">放入漂流瓶　↗</button></form><div id="bottleList" class="bottle-list"></div></div>
+      </div>
+      <div class="saved-worlds"><h3>已點亮的世界</h3><div id="visitedWorlds">尚未探索任何世界。從宇宙地圖出發吧！</div></div>
+    </section>
+
+    <section class="community-section section-wrap" id="community">
+      <div class="section-heading"><div><p class="eyebrow blue">LET THE STARS HEAR YOU</p><h2>COMMUNITY <em>WALL</em></h2></div><p>留下一句話，分享此刻的心情。<br>貼文只會儲存在目前這個瀏覽器。</p></div>
+      <form class="post-form" id="postForm"><input id="postName" maxlength="20" placeholder="暱稱（選填）" aria-label="暱稱"><textarea id="postText" maxlength="280" placeholder="今天想對這個宇宙說些什麼？" required aria-label="貼文內容"></textarea><button class="button button-primary" type="submit">發布星際訊息 ✦</button></form>
+      <div class="community-feed" id="communityFeed"></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">✦</span><span>OUR <b>SEASON</b><small>A season that never ends.</small></span></a><p>Made with starlight, for nine and ZEROSE.</p><a href="#home">BACK TO TOP ↑</a><small class="disclaimer">非官方粉絲創作網站，與 ZEROBASEONE、WAKEONE 無隸屬或合作關係。成員名稱僅作粉絲導覽用途。</small></footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="modal-backdrop" id="modalBackdrop"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="關閉">×</button><div id="modalContent"></div></div></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
