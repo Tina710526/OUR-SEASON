@@ -3,13 +3,6 @@
 
 ZEROBASEONE × ZEROSE 的粉絲互動宇宙。第一版使用 HTML、CSS、JavaScript、JSON 與 LocalStorage，無需登入或後端。
 
-## 本機啟動
-因為資料以 `fetch()` 載入 JSON，請使用 HTTP server：
-```bash
-python -m http.server 8000
-```
-開啟 http://localhost:8000
-
 ## 已實作
 - 夏日主視覺、響應式導覽與三世界入口
 - 可點擊宇宙地圖、三世界解說
