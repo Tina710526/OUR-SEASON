@@ -1,0 +1,101 @@
+[
+  {
+    "id": "jiwoong",
+    "name": "金地雄",
+    "korean": "김지웅",
+    "animal": "黑貓",
+    "emoji": "🐈‍⬛",
+    "planet": "月影星",
+    "color": "#e7e8f1",
+    "desc": "安靜而溫柔的月光守望者。",
+    "mission": "在月影星找到三枚銀色星塵。"
+  },
+  {
+    "id": "zhanghao",
+    "name": "張昊",
+    "korean": "장하오",
+    "animal": "紅熊貓",
+    "emoji": "🦊",
+    "planet": "赤霞星",
+    "color": "#fbe2d4",
+    "desc": "帶著暖色光芒穿越星雲的旅人。",
+    "mission": "收集赤霞星的晨光碎片。"
+  },
+  {
+    "id": "hanbin",
+    "name": "成韓彬",
+    "korean": "성한빈",
+    "animal": "倉鼠",
+    "emoji": "🐹",
+    "planet": "晨曦星",
+    "color": "#fff0c9",
+    "desc": "把每個清晨都照亮的星球引路人。",
+    "mission": "讓晨曦星的三盞燈重新亮起。"
+  },
+  {
+    "id": "matthew",
+    "name": "石馬修",
+    "korean": "석매튜",
+    "animal": "狐狸",
+    "emoji": "🦊",
+    "planet": "橘光星",
+    "color": "#ffe5c6",
+    "desc": "收藏微小快樂與橘色晚霞的探險家。",
+    "mission": "尋找藏在橘光星的快樂碎片。"
+  },
+  {
+    "id": "taerae",
+    "name": "金泰來",
+    "korean": "김태래",
+    "animal": "鴨子",
+    "emoji": "🦆",
+    "planet": "回聲星",
+    "color": "#e5f3e9",
+    "desc": "讓歌聲沿著星際河流迴盪的旅者。",
+    "mission": "找回回聲星失落的旋律。"
+  },
+  {
+    "id": "gunwook",
+    "name": "朴乾煜",
+    "korean": "박건욱",
+    "animal": "灰色小狗",
+    "emoji": "🐶",
+    "planet": "岩岸星",
+    "color": "#e5e8ed",
+    "desc": "守護星球邊界、可靠又勇敢的夥伴。",
+    "mission": "修復岩岸星的星際燈塔。"
+  },
+  {
+    "id": "gyuvin",
+    "name": "金奎彬",
+    "korean": "김규빈",
+    "animal": "白色小狗",
+    "emoji": "🐶",
+    "planet": "雲朵星",
+    "color": "#f1f1f1",
+    "desc": "在柔軟雲海裡發現驚喜的尋寶者。",
+    "mission": "找到雲朵星的隱藏寶箱。"
+  },
+  {
+    "id": "ricky",
+    "name": "沈泉銳",
+    "korean": "리키",
+    "animal": "奶牛貓",
+    "emoji": "🐈",
+    "planet": "黑白星",
+    "color": "#e9e8f4",
+    "desc": "穿梭黑白星環、尋找平衡光點的旅人。",
+    "mission": "排列黑白星的星環圖案。"
+  },
+  {
+    "id": "yujin",
+    "name": "韓維辰",
+    "korean": "한유진",
+    "animal": "兔子",
+    "emoji": "🐰",
+    "planet": "月兔星",
+    "color": "#f5e5ee",
+    "desc": "在月光花園裡留下輕盈足跡的旅者。",
+    "mission": "喚醒月兔星沉睡的星花。"
+  }
+]
