@@ -111,7 +111,7 @@
     originalBindEvents();
     $("journalForm").addEventListener("submit", () => {
       if ($("journalText").value.trim()) completeQuest(3);
-    });
+    }, true);
     document.addEventListener("keydown", event => {
       if (event.key === "Escape" && $("modalBackdrop").classList.contains("open")) {
         $("modalBackdrop").classList.remove("open");
