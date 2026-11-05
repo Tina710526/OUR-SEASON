@@ -18,7 +18,8 @@ OUR SEASON（品牌標語：A season that never ends.）是 ZEROBASEONE × ZEROS
 ## 3. 資料夾與檔案
 - `index.html`：所有頁面區塊、語意結構與互動入口。
 - `css/style.css`：色彩 token、版面、元件、手機斷點與動態效果。
-- `js/app.js`：資料載入、DOM 渲染、事件、遊戲邏輯及本機儲存。
+- `js/app.js`：資料載入、DOM 渲染、原始事件及本機儲存。
+- `js/v2.js`：V2 互動保護層、一次性任務獎勵、故事閱讀及成員星球探索紀錄。
 - `data/members.json`：九位成員的固定資料。
 - `data/content.json`：世界、時間軸、虛構故事、典藏分類與任務。
 - `assets/`：日後放置已取得授權或自行創作的圖片、圖示與字型。
@@ -86,14 +87,20 @@ OUR SEASON（品牌標語：A season that never ends.）是 ZEROBASEONE × ZEROS
 9. 不得聲稱本機貼文可跨裝置同步；若要多人即時社群，需另行設計後端與內容審核。
 10. 修改後更新本文件中的架構與操作說明。
 
-## 8. 測試
+## 8. V2 互動規則
+- 每位成員星球探索獎勵只可領取一次，紀錄存於 `visitedMembers`。
+- 任務只能由對應實際行動完成，不可透過取消勾選重複領取星星；已完成任務存於 `quests`。
+- 已閱讀故事存於 `readStories`；閱讀內容必須持續標示為粉絲創作／虛構。
+- V2 新增欄位需沿用舊版資料並補上預設值，不可清空 `our-season-v1`。
+
+## 9. 測試
 - 使用 `python -m http.server 8000` 啟動本機伺服器，再瀏覽 `http://localhost:8000`。
 - 檢查 JSON 是否成功載入、九位成員順序、三個世界入口、星球彈窗、星星領取每日限制、任務勾選、日記、漂流瓶、貼文及按讚。
 - 以桌面與手機寬度檢查排版；檢查瀏覽器 Console 是否有錯誤。
 - 測試重新整理後 LocalStorage 資料仍存在；使用無痕視窗確認空白初始狀態。
 - 變更 `data/*.json` 後，確認 JSON 格式有效。
 
-## 9. GitHub Pages 部署
+## 10. GitHub Pages 部署
 1. 在 GitHub 建立新 Repository（例如 `our-season`）。
 2. 上傳本專案所有檔案與資料夾，確保 `index.html` 位於 Repository 根目錄。
 3. 開啟 Repository → Settings → Pages。
